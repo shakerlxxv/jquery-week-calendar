@@ -219,6 +219,10 @@ table.wc-time-slots {
 	display: none;
 }
 
+.wc-cal-event.ui-resizable {
+	position: absolute;
+}
+
 
 .wc-cal-event.ui-resizable-resizing {
 	cursor: s-resize;
