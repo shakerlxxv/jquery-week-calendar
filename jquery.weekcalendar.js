@@ -355,6 +355,13 @@
       },
 
       /**
+        * scroll the view scrollable calendar are to the indicated hour
+        */
+      scrollToHour: function(hour) {
+          this._scrollToHour(hour,false);
+      },
+
+      /**
         * change the number of days to show
         */
       setDaysToShow: function(daysToShow) {
